@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects — [Your Name]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="index.html">[Your Name]</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Projects</h1>
+    <p>Selected work that balances functionality, usability, and reporting.</p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive multi-page site built with HTML/CSS/JS. Hosted on GitHub Pages.</p>
+        <div class="actions">
+          <a class="btn btn-small" href="#" target="_blank">Live</a>
+          <a class="btn btn-small btn-secondary" href="#" target="_blank">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>To‑Do App</h3>
+        <p>CRUD tasks with localStorage, later upgradable to Node/Express + MongoDB.</p>
+        <div class="actions">
+          <a class="btn btn-small" href="#" target="_blank">Live</a>
+          <a class="btn btn-small btn-secondary" href="#" target="_blank">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>Expense Tracker</h3>
+        <p>Track expenses, categorize them, and visualize with Chart.js.</p>
+        <div class="actions">
+          <a class="btn btn-small" href="#" target="_blank">Live</a>
+          <a class="btn btn-small btn-secondary" href="#" target="_blank">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>Smart Home System</h3>
+        <p>Node.js + Express + Socket.io with real-time device control and scenes.</p>
+        <div class="actions">
+          <a class="btn btn-small" href="#" target="_blank">Live</a>
+          <a class="btn btn-small btn-secondary" href="#" target="_blank">Code</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> [Your Name]. All rights reserved.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
