@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>[Your Name] — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="index.html">[Your Name]</a>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="profile.jpg" alt="Profile photo" class="profile-pic" />
+      <div class="hero-text">
+        <h1>Hi, I’m [Your Name]</h1>
+        <p>I build user-friendly systems, data dashboards, and clean full-stack apps.</p>
+        <div class="hero-actions">
+          <a class="btn" href="projects.html">View my work</a>
+          <a class="btn btn-secondary" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="card">
+        <h3>Full-stack</h3>
+        <p>From REST APIs to responsive UIs, I design end-to-end experiences.</p>
+      </div>
+      <div class="card">
+        <h3>Data viz</h3>
+        <p>Clear charts and dashboards that turn data into decisions.</p>
+      </div>
+      <div class="card">
+        <h3>Teaching mindset</h3>
+        <p>I document, demo, and explain—making code reusable and viva-ready.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> [Your Name]. All rights reserved.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
